@@ -254,7 +254,7 @@ export default styles => {
         );
       }
 
-      const menuWrap = document.querySelector('.bm-menu-wrap');
+      const menuWrap = document.getElementById(props.id);
       if (menuWrap) {
         if (set) {
           menuWrap.removeAttribute('hidden');
