@@ -2104,7 +2104,7 @@ exports['default'] = function (styles) {
             if (styles.outerContainer && props.outerContainerId) {
                 handleExternalWrapper(props.outerContainerId, styles.outerContainer, set);
             }
-            var menuWrap = document.getElementById(props.id);;
+            var menuWrap = document.getElementById(props.id);
             if (menuWrap) {
                 if (set) {
                     menuWrap.removeAttribute('hidden');
